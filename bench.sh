@@ -6,7 +6,7 @@
 #
 # Thanks: LookBack <admin@dwhd.org>
 #
-# URL: https://teddysun.com/444.html
+# URL: https://www.wn789.com
 #
 
 if  [ ! -e '/usr/bin/wget' ]; then
