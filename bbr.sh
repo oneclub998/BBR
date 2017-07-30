@@ -4,8 +4,9 @@
 #
 # System Required:  CentOS 6+, Debian7+, Ubuntu12+
 #
-# Copyright (C) 2016-2017 Teddysun
+# Copyright (C) 2016-2017 Teddysun <i@teddysun.com>
 #
+# URL: https://teddysun.com/489.html
 #
 
 red='\033[0;31m'
@@ -119,9 +120,9 @@ install_elrepo() {
     rpm --import https://www.elrepo.org/RPM-GPG-KEY-elrepo.org
 
     if centosversion 6; then
-        rpm -Uvh http://www.elrepo.org/elrepo-release-6-6.el6.elrepo.noarch.rpm
+        rpm -Uvh http://www.elrepo.org/elrepo-release-6-8.el6.elrepo.noarch.rpm
     elif centosversion 7; then
-        rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
+        rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-3.el7.elrepo.noarch.rpm
     fi
 
     if [ ! -f /etc/yum.repos.d/elrepo.repo ]; then
@@ -198,6 +199,7 @@ echo " Kernel  : $kern"
 echo "----------------------------------------"
 echo " Auto install latest kernel for TCP BBR"
 echo
+echo " URL: https://teddysun.com/489.html"
 echo "----------------------------------------"
 echo
 echo "Press any key to start...or Press Ctrl+C to cancel"
