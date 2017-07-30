@@ -4,7 +4,7 @@ l2tp.sh
 =======
 
 - Description: Auto install L2TP VPN for CentOS6+/Debian7+/Ubuntu12+
-- Intro: https://teddysun.com/448.html
+- Intro: https://www.wn789.com
 ```bash
 Usage: l2tp [-l,--list|-a,--add|-d,--del|-m,--mod|-h,--help]
 
@@ -21,13 +21,13 @@ bbr.sh
 ======
 
 - Description: Auto install latest kernel for TCP BBR
-- Intro: https://teddysun.com/489.html
+- Intro: https://www.wn789.com
 
 bench.sh
 ========
 
 - Description: Auto test download & I/O speed script
-- Intro: https://teddysun.com/444.html
+- Intro: https://www.wn789.com
 ```bash
 Usage:
 
@@ -48,7 +48,7 @@ backup.sh
 - Auto transfer backup file to Google Drive (need install `gdrive` command) (option)
 - Auto transfer backup file to FTP server (option)
 - Auto delete Google Drive's or FTP server's remote file (option)
-- Intro: https://teddysun.com/469.html
+- Intro: https://www.wn789.com
 
 ```bash
 Install gdrive command step:
@@ -67,18 +67,18 @@ ftp_upload.sh
 
 - You must modify the config before run it
 - Upload file(s) to FTP server
-- Intro: https://teddysun.com/484.html
+- Intro: https://www.wn789.com
 
 unixbench.sh
 ============
 
 - Description: Auto install unixbench and test script
-- Intro: https://teddysun.com/245.html
+- Intro: https://www.wn789.com
 
 pptp.sh(Deprecated)
 ===================
 
 - Description: Auto Install PPTP for CentOS 6
-- Intro: https://teddysun.com/134.html
+- Intro: https://www.wn789.com
 
 Copyright (C) 2013-2017 Teddysun <i@teddysun.com>
